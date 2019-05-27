@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Modal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="div_img">
+      <img src="../../assets/cuphead-logo.png" alt="Cuphead logo">
+  </div>
+  <div id="div_name">
+    {{ clickedItem.name }}
+  </div>
+  <div id="div_description">
+      <b>Sobre o Jogo</b>
+      <p>Cuphead é um jogo de tiro/ação clássico; com enorme ênfase nas batalhas de chefões e inspirado nas animações infantis da década de 1930, 
+      os visuais e efeitos sonoros foram minuciosamente recriados com as mesmíssimas técnicas dessa era! </p>
+        
+      <p>Jogue como Cuphead ou Mugman (nos modos um jogador ou cooperativo) e atravesse mundos fantasticos, adquira novas armas, aprenda supergolpes 
+      e descubra segredos ocultos enquanto tenta pagar a dívida que você fez com o submundo!</p>
+        
+      <b>DESTAQUES</b>
+      <li>Desenhos feitos à mão;</li>
+      <li>Fundos em aquarela</li>
+      <li>Trilha sonora e gravações originais de jazz.</li>
+  </div>
+  <div id="div_price">
+    Preço: R$ {{ clickedItem.value }}
+  </div>
+
+</ion-content>
